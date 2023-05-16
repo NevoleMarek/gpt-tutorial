@@ -8,8 +8,8 @@ packages = [{include = "tutorial_gpt"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-torch = "^2.0.1"
-
+torch = "^1.13"
+pytorch-lightning = "^2.0.2"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"
